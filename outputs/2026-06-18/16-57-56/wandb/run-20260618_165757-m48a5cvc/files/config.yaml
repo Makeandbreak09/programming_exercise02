@@ -1,0 +1,92 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            ypx572vqyosb5zcyui75dxvhenk32fid:
+                codePath: template\agents\dqn\train.py
+                codePathLocal: ..\..\..\template\agents\dqn\train.py
+                cpu_count: 12
+                cpu_count_logical: 24
+                cudaVersion: "13.3"
+                disk:
+                    /:
+                        total: "998647312384"
+                        used: "885791711232"
+                email: simon.buschmann.1@gmx.de
+                executable: C:\Users\simon\OneDrive\Dokumente\Uni\26SS\DeepRL\programming_exercise02\.venv\Scripts\python.exe
+                git:
+                    commit: d28a9c83d9ab04619dd78bd2c8883a74a896bd0b
+                    remote: https://github.com/Makeandbreak09/programming_exercise02.git
+                gpu: NVIDIA GeForce RTX 3070
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 5888
+                      memoryTotal: "8589934592"
+                      name: NVIDIA GeForce RTX 3070
+                      uuid: GPU-a3db653d-8458-a4d6-4a0c-8a50c36adcfa
+                host: Simons-Desktop
+                memory:
+                    total: "17101594624"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\simon\OneDrive\Dokumente\Uni\26SS\DeepRL\programming_exercise02\template\agents\dqn\train.py
+                python: CPython 3.12.10
+                root: C:\Users\simon\OneDrive\Dokumente\Uni\26SS\DeepRL\programming_exercise02\outputs\2026-06-18\16-57-56
+                startedAt: "2026-06-18T14:57:57.382249Z"
+                writerId: ypx572vqyosb5zcyui75dxvhenk32fid
+        m: []
+        python_version: 3.12.10
+        t:
+            "1":
+                - 1
+                - 50
+                - 105
+            "2":
+                - 1
+                - 50
+                - 105
+            "3":
+                - 16
+                - 61
+            "4": 3.12.10
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+buffer:
+    value:
+        batch_size: 128
+        buffer_size: 100000
+collector:
+    value:
+        frames_per_batch: 1000
+        init_random_frames: 10000
+        total_frames: 500000
+device:
+    value: cpu
+double_dqn:
+    value: true
+env:
+    value:
+        name: LunarLander-v3
+evaluation:
+    value:
+        episodes: 10
+        eval_step_freq: 10000
+exploration:
+    value:
+        eps_anneal_steps: 40000
+        eps_end_value: 0.025
+        eps_start_value: 1
+logging:
+    value:
+        project: dqn-lunar-lander
+loss:
+    value:
+        gamma: 0.99
+        num_updates: 100
+optim:
+    value:
+        lr: 0.00025
+        tau: 0.005
