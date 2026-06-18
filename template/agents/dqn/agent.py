@@ -26,11 +26,15 @@ class DeepQNetwork(torch.nn.Module):
 
         # Online Q-Network
         self.net = torch.nn.Sequential(
-            torch.nn.Linear(self.net_input_dim, 256),
+            torch.nn.Linear(self.net_input_dim, 64),
             torch.nn.ReLU(),
-            torch.nn.Linear(256, 256),
+            torch.nn.Linear(64, 64),
             torch.nn.ReLU(),
-            torch.nn.Linear(256, self.net_output_dim),
+            torch.nn.Linear(64, 64),
+            torch.nn.ReLU(),
+            torch.nn.Linear(64, 64),
+            torch.nn.ReLU(),
+            torch.nn.Linear(64, self.net_output_dim),
         )
 
         # Target Q-Network
