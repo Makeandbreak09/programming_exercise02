@@ -1,0 +1,902 @@
+[
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 10.0,
+    "avg_episode_len": 17.3,
+    "avg_episode_rew": 17.3,
+    "loss": 0.01301831128075719,
+    "avg_eval_ep_rew": 56.7,
+    "std_eval_ep_rew": 11.296459622377268
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 20.0,
+    "avg_episode_len": 22.8,
+    "avg_episode_rew": 22.8,
+    "loss": -0.049650587141513824,
+    "avg_eval_ep_rew": 56.7,
+    "std_eval_ep_rew": 11.296459622377268
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 30.0,
+    "avg_episode_len": 30.6,
+    "avg_episode_rew": 30.6,
+    "loss": -0.04265578575432301,
+    "avg_eval_ep_rew": 56.7,
+    "std_eval_ep_rew": 11.296459622377268
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 40.0,
+    "avg_episode_len": 22.4,
+    "avg_episode_rew": 22.4,
+    "loss": -0.07515439838171005,
+    "avg_eval_ep_rew": 56.7,
+    "std_eval_ep_rew": 11.296459622377268
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 50.0,
+    "avg_episode_len": 34.1,
+    "avg_episode_rew": 34.1,
+    "loss": -0.17587764263153077,
+    "avg_eval_ep_rew": 56.7,
+    "std_eval_ep_rew": 11.296459622377268
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 60.0,
+    "avg_episode_len": 22.1,
+    "avg_episode_rew": 22.1,
+    "loss": -0.025556591525673866,
+    "avg_eval_ep_rew": 45.0,
+    "std_eval_ep_rew": 13.137731919931994
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 70.0,
+    "avg_episode_len": 31.7,
+    "avg_episode_rew": 31.7,
+    "loss": -0.10363897010684013,
+    "avg_eval_ep_rew": 45.0,
+    "std_eval_ep_rew": 13.137731919931994
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 80.0,
+    "avg_episode_len": 26.3,
+    "avg_episode_rew": 26.3,
+    "loss": -0.07121362388134003,
+    "avg_eval_ep_rew": 45.0,
+    "std_eval_ep_rew": 13.137731919931994
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 90.0,
+    "avg_episode_len": 45.2,
+    "avg_episode_rew": 45.2,
+    "loss": -0.1312090925872326,
+    "avg_eval_ep_rew": 45.0,
+    "std_eval_ep_rew": 13.137731919931994
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 100.0,
+    "avg_episode_len": 29.2,
+    "avg_episode_rew": 29.2,
+    "loss": 0.03343188688158989,
+    "avg_eval_ep_rew": 45.0,
+    "std_eval_ep_rew": 13.137731919931994
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 110.0,
+    "avg_episode_len": 27.9,
+    "avg_episode_rew": 27.9,
+    "loss": -0.04860708490014076,
+    "avg_eval_ep_rew": 47.1,
+    "std_eval_ep_rew": 16.244691440590678
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 120.0,
+    "avg_episode_len": 38.7,
+    "avg_episode_rew": 38.7,
+    "loss": -0.15571675151586534,
+    "avg_eval_ep_rew": 47.1,
+    "std_eval_ep_rew": 16.244691440590678
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 130.0,
+    "avg_episode_len": 50.5,
+    "avg_episode_rew": 50.5,
+    "loss": -0.36227457523345946,
+    "avg_eval_ep_rew": 47.1,
+    "std_eval_ep_rew": 16.244691440590678
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 140.0,
+    "avg_episode_len": 33.9,
+    "avg_episode_rew": 33.9,
+    "loss": 0.18742358684539795,
+    "avg_eval_ep_rew": 47.1,
+    "std_eval_ep_rew": 16.244691440590678
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 150.0,
+    "avg_episode_len": 45.6,
+    "avg_episode_rew": 45.6,
+    "loss": -0.12962733805179597,
+    "avg_eval_ep_rew": 47.1,
+    "std_eval_ep_rew": 16.244691440590678
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 160.0,
+    "avg_episode_len": 36.4,
+    "avg_episode_rew": 36.4,
+    "loss": -0.10485383719205857,
+    "avg_eval_ep_rew": 89.1,
+    "std_eval_ep_rew": 18.041341413542398
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 170.0,
+    "avg_episode_len": 43.0,
+    "avg_episode_rew": 43.0,
+    "loss": 0.004448642092756927,
+    "avg_eval_ep_rew": 89.1,
+    "std_eval_ep_rew": 18.041341413542398
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 180.0,
+    "avg_episode_len": 47.5,
+    "avg_episode_rew": 47.5,
+    "loss": -0.055057441368990115,
+    "avg_eval_ep_rew": 89.1,
+    "std_eval_ep_rew": 18.041341413542398
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 190.0,
+    "avg_episode_len": 49.6,
+    "avg_episode_rew": 49.6,
+    "loss": -0.17382840663194657,
+    "avg_eval_ep_rew": 89.1,
+    "std_eval_ep_rew": 18.041341413542398
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 200.0,
+    "avg_episode_len": 64.0,
+    "avg_episode_rew": 64.0,
+    "loss": -0.08031674027442932,
+    "avg_eval_ep_rew": 89.1,
+    "std_eval_ep_rew": 18.041341413542398
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 210.0,
+    "avg_episode_len": 44.9,
+    "avg_episode_rew": 44.9,
+    "loss": -0.1930793046951294,
+    "avg_eval_ep_rew": 76.0,
+    "std_eval_ep_rew": 12.915107432770352
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 220.0,
+    "avg_episode_len": 60.6,
+    "avg_episode_rew": 60.6,
+    "loss": -0.2929098427295685,
+    "avg_eval_ep_rew": 76.0,
+    "std_eval_ep_rew": 12.915107432770352
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 230.0,
+    "avg_episode_len": 59.8,
+    "avg_episode_rew": 59.8,
+    "loss": -0.4824352562427521,
+    "avg_eval_ep_rew": 76.0,
+    "std_eval_ep_rew": 12.915107432770352
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 240.0,
+    "avg_episode_len": 50.8,
+    "avg_episode_rew": 50.8,
+    "loss": -0.22162593603134156,
+    "avg_eval_ep_rew": 76.0,
+    "std_eval_ep_rew": 12.915107432770352
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 250.0,
+    "avg_episode_len": 63.1,
+    "avg_episode_rew": 63.1,
+    "loss": -0.24969808161258697,
+    "avg_eval_ep_rew": 76.0,
+    "std_eval_ep_rew": 12.915107432770352
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 260.0,
+    "avg_episode_len": 61.4,
+    "avg_episode_rew": 61.4,
+    "loss": -0.3052404120564461,
+    "avg_eval_ep_rew": 155.2,
+    "std_eval_ep_rew": 28.265880492211807
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 270.0,
+    "avg_episode_len": 56.4,
+    "avg_episode_rew": 56.4,
+    "loss": 0.04247742583975196,
+    "avg_eval_ep_rew": 155.2,
+    "std_eval_ep_rew": 28.265880492211807
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 280.0,
+    "avg_episode_len": 86.2,
+    "avg_episode_rew": 86.2,
+    "loss": -0.35883635431528094,
+    "avg_eval_ep_rew": 155.2,
+    "std_eval_ep_rew": 28.265880492211807
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 290.0,
+    "avg_episode_len": 92.5,
+    "avg_episode_rew": 92.5,
+    "loss": -0.3902053594589233,
+    "avg_eval_ep_rew": 155.2,
+    "std_eval_ep_rew": 28.265880492211807
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 300.0,
+    "avg_episode_len": 70.1,
+    "avg_episode_rew": 70.1,
+    "loss": -0.23115517497062682,
+    "avg_eval_ep_rew": 155.2,
+    "std_eval_ep_rew": 28.265880492211807
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 310.0,
+    "avg_episode_len": 94.5,
+    "avg_episode_rew": 94.5,
+    "loss": -0.26243600249290466,
+    "avg_eval_ep_rew": 172.8,
+    "std_eval_ep_rew": 41.904176402836036
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 320.0,
+    "avg_episode_len": 100.5,
+    "avg_episode_rew": 100.5,
+    "loss": -0.6553371369838714,
+    "avg_eval_ep_rew": 172.8,
+    "std_eval_ep_rew": 41.904176402836036
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 330.0,
+    "avg_episode_len": 133.6,
+    "avg_episode_rew": 133.6,
+    "loss": -0.3497144848108292,
+    "avg_eval_ep_rew": 172.8,
+    "std_eval_ep_rew": 41.904176402836036
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 340.0,
+    "avg_episode_len": 90.4,
+    "avg_episode_rew": 90.4,
+    "loss": -0.0900968924164772,
+    "avg_eval_ep_rew": 172.8,
+    "std_eval_ep_rew": 41.904176402836036
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 350.0,
+    "avg_episode_len": 91.0,
+    "avg_episode_rew": 91.0,
+    "loss": -0.23149921000003815,
+    "avg_eval_ep_rew": 172.8,
+    "std_eval_ep_rew": 41.904176402836036
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 360.0,
+    "avg_episode_len": 139.3,
+    "avg_episode_rew": 139.3,
+    "loss": -0.2619254320859909,
+    "avg_eval_ep_rew": 326.0,
+    "std_eval_ep_rew": 28.035691537752374
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 370.0,
+    "avg_episode_len": 152.2,
+    "avg_episode_rew": 152.2,
+    "loss": -0.7148515582084656,
+    "avg_eval_ep_rew": 326.0,
+    "std_eval_ep_rew": 28.035691537752374
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 380.0,
+    "avg_episode_len": 139.7,
+    "avg_episode_rew": 139.7,
+    "loss": 0.5942935526371003,
+    "avg_eval_ep_rew": 326.0,
+    "std_eval_ep_rew": 28.035691537752374
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 390.0,
+    "avg_episode_len": 196.2,
+    "avg_episode_rew": 196.2,
+    "loss": 0.655409038066864,
+    "avg_eval_ep_rew": 326.0,
+    "std_eval_ep_rew": 28.035691537752374
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 400.0,
+    "avg_episode_len": 198.1,
+    "avg_episode_rew": 198.1,
+    "loss": -0.32920522391796114,
+    "avg_eval_ep_rew": 326.0,
+    "std_eval_ep_rew": 28.035691537752374
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 410.0,
+    "avg_episode_len": 132.6,
+    "avg_episode_rew": 132.6,
+    "loss": -0.24407389936968685,
+    "avg_eval_ep_rew": 485.1,
+    "std_eval_ep_rew": 33.76521879093929
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 420.0,
+    "avg_episode_len": 202.7,
+    "avg_episode_rew": 202.7,
+    "loss": -0.5998613834381104,
+    "avg_eval_ep_rew": 485.1,
+    "std_eval_ep_rew": 33.76521879093929
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 430.0,
+    "avg_episode_len": 218.9,
+    "avg_episode_rew": 218.9,
+    "loss": 0.005662159901112318,
+    "avg_eval_ep_rew": 485.1,
+    "std_eval_ep_rew": 33.76521879093929
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 440.0,
+    "avg_episode_len": 291.1,
+    "avg_episode_rew": 291.1,
+    "loss": -0.4854013305157423,
+    "avg_eval_ep_rew": 485.1,
+    "std_eval_ep_rew": 33.76521879093929
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 450.0,
+    "avg_episode_len": 336.0,
+    "avg_episode_rew": 336.0,
+    "loss": 0.611057335138321,
+    "avg_eval_ep_rew": 485.1,
+    "std_eval_ep_rew": 33.76521879093929
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 460.0,
+    "avg_episode_len": 278.3,
+    "avg_episode_rew": 278.3,
+    "loss": 1.2307108968496323,
+    "avg_eval_ep_rew": 206.2,
+    "std_eval_ep_rew": 28.38238890579861
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 470.0,
+    "avg_episode_len": 169.0,
+    "avg_episode_rew": 169.0,
+    "loss": 1.0255807638168335,
+    "avg_eval_ep_rew": 206.2,
+    "std_eval_ep_rew": 28.38238890579861
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 480.0,
+    "avg_episode_len": 124.5,
+    "avg_episode_rew": 124.5,
+    "loss": 0.41305737048387525,
+    "avg_eval_ep_rew": 206.2,
+    "std_eval_ep_rew": 28.38238890579861
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 490.0,
+    "avg_episode_len": 83.4,
+    "avg_episode_rew": 83.4,
+    "loss": -0.016350336000323297,
+    "avg_eval_ep_rew": 206.2,
+    "std_eval_ep_rew": 28.38238890579861
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 500.0,
+    "avg_episode_len": 106.1,
+    "avg_episode_rew": 106.1,
+    "loss": -1.2479807496070863,
+    "avg_eval_ep_rew": 206.2,
+    "std_eval_ep_rew": 28.38238890579861
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 510.0,
+    "avg_episode_len": 163.8,
+    "avg_episode_rew": 163.8,
+    "loss": 1.529579558968544,
+    "avg_eval_ep_rew": 476.1,
+    "std_eval_ep_rew": 48.67124407697013
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 520.0,
+    "avg_episode_len": 323.8,
+    "avg_episode_rew": 323.8,
+    "loss": -0.09988411366939545,
+    "avg_eval_ep_rew": 476.1,
+    "std_eval_ep_rew": 48.67124407697013
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 530.0,
+    "avg_episode_len": 247.6,
+    "avg_episode_rew": 247.6,
+    "loss": -0.6333871185779572,
+    "avg_eval_ep_rew": 476.1,
+    "std_eval_ep_rew": 48.67124407697013
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 540.0,
+    "avg_episode_len": 294.0,
+    "avg_episode_rew": 294.0,
+    "loss": -0.1751011371612549,
+    "avg_eval_ep_rew": 476.1,
+    "std_eval_ep_rew": 48.67124407697013
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 550.0,
+    "avg_episode_len": 309.9,
+    "avg_episode_rew": 309.9,
+    "loss": 0.286770299077034,
+    "avg_eval_ep_rew": 476.1,
+    "std_eval_ep_rew": 48.67124407697013
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 560.0,
+    "avg_episode_len": 369.4,
+    "avg_episode_rew": 369.4,
+    "loss": -0.4206825792789459,
+    "avg_eval_ep_rew": 499.7,
+    "std_eval_ep_rew": 0.9
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 570.0,
+    "avg_episode_len": 294.1,
+    "avg_episode_rew": 294.1,
+    "loss": -0.3743236601352692,
+    "avg_eval_ep_rew": 499.7,
+    "std_eval_ep_rew": 0.9
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 580.0,
+    "avg_episode_len": 281.9,
+    "avg_episode_rew": 281.9,
+    "loss": 0.05168585609644651,
+    "avg_eval_ep_rew": 499.7,
+    "std_eval_ep_rew": 0.9
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 590.0,
+    "avg_episode_len": 293.2,
+    "avg_episode_rew": 293.2,
+    "loss": -0.05788647190202027,
+    "avg_eval_ep_rew": 499.7,
+    "std_eval_ep_rew": 0.9
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 600.0,
+    "avg_episode_len": 321.2,
+    "avg_episode_rew": 321.2,
+    "loss": -0.14796629846096038,
+    "avg_eval_ep_rew": 499.7,
+    "std_eval_ep_rew": 0.9
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 610.0,
+    "avg_episode_len": 270.0,
+    "avg_episode_rew": 270.0,
+    "loss": 0.2464621350169182,
+    "avg_eval_ep_rew": 253.8,
+    "std_eval_ep_rew": 22.63095225570502
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 620.0,
+    "avg_episode_len": 212.5,
+    "avg_episode_rew": 212.5,
+    "loss": -1.6864723026752473,
+    "avg_eval_ep_rew": 253.8,
+    "std_eval_ep_rew": 22.63095225570502
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 630.0,
+    "avg_episode_len": 164.6,
+    "avg_episode_rew": 164.6,
+    "loss": 1.1376039016991855,
+    "avg_eval_ep_rew": 253.8,
+    "std_eval_ep_rew": 22.63095225570502
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 640.0,
+    "avg_episode_len": 132.6,
+    "avg_episode_rew": 132.6,
+    "loss": -0.12900447398424147,
+    "avg_eval_ep_rew": 253.8,
+    "std_eval_ep_rew": 22.63095225570502
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 650.0,
+    "avg_episode_len": 107.3,
+    "avg_episode_rew": 107.3,
+    "loss": -1.0863349258899688,
+    "avg_eval_ep_rew": 253.8,
+    "std_eval_ep_rew": 22.63095225570502
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 660.0,
+    "avg_episode_len": 173.0,
+    "avg_episode_rew": 173.0,
+    "loss": -3.23793511390686,
+    "avg_eval_ep_rew": 226.4,
+    "std_eval_ep_rew": 89.86233916385663
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 670.0,
+    "avg_episode_len": 167.6,
+    "avg_episode_rew": 167.6,
+    "loss": -0.26582842171192167,
+    "avg_eval_ep_rew": 226.4,
+    "std_eval_ep_rew": 89.86233916385663
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 680.0,
+    "avg_episode_len": 193.4,
+    "avg_episode_rew": 193.4,
+    "loss": 0.26114908382296564,
+    "avg_eval_ep_rew": 226.4,
+    "std_eval_ep_rew": 89.86233916385663
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 690.0,
+    "avg_episode_len": 201.8,
+    "avg_episode_rew": 201.8,
+    "loss": 0.08614644529297948,
+    "avg_eval_ep_rew": 226.4,
+    "std_eval_ep_rew": 89.86233916385663
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 700.0,
+    "avg_episode_len": 260.2,
+    "avg_episode_rew": 260.2,
+    "loss": -1.1720829516649247,
+    "avg_eval_ep_rew": 226.4,
+    "std_eval_ep_rew": 89.86233916385663
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 710.0,
+    "avg_episode_len": 299.6,
+    "avg_episode_rew": 299.6,
+    "loss": 1.2277571320533753,
+    "avg_eval_ep_rew": 488.0,
+    "std_eval_ep_rew": 36.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 720.0,
+    "avg_episode_len": 303.6,
+    "avg_episode_rew": 303.6,
+    "loss": 1.2214686214923858,
+    "avg_eval_ep_rew": 488.0,
+    "std_eval_ep_rew": 36.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 730.0,
+    "avg_episode_len": 336.6,
+    "avg_episode_rew": 336.6,
+    "loss": 0.019984717667102813,
+    "avg_eval_ep_rew": 488.0,
+    "std_eval_ep_rew": 36.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 740.0,
+    "avg_episode_len": 399.1,
+    "avg_episode_rew": 399.1,
+    "loss": -0.44450426399707793,
+    "avg_eval_ep_rew": 488.0,
+    "std_eval_ep_rew": 36.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 750.0,
+    "avg_episode_len": 394.7,
+    "avg_episode_rew": 394.7,
+    "loss": -1.9272978365421296,
+    "avg_eval_ep_rew": 488.0,
+    "std_eval_ep_rew": 36.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 760.0,
+    "avg_episode_len": 335.9,
+    "avg_episode_rew": 335.9,
+    "loss": 0.159301695227623,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 770.0,
+    "avg_episode_len": 339.4,
+    "avg_episode_rew": 339.4,
+    "loss": -0.35716962814331055,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 780.0,
+    "avg_episode_len": 330.5,
+    "avg_episode_rew": 330.5,
+    "loss": -0.45568129122257234,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 790.0,
+    "avg_episode_len": 333.8,
+    "avg_episode_rew": 333.8,
+    "loss": 1.0662055060267448,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 800.0,
+    "avg_episode_len": 245.4,
+    "avg_episode_rew": 245.4,
+    "loss": 0.4852705329656601,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 810.0,
+    "avg_episode_len": 279.0,
+    "avg_episode_rew": 279.0,
+    "loss": 0.37318091168999673,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 820.0,
+    "avg_episode_len": 366.1,
+    "avg_episode_rew": 366.1,
+    "loss": -0.8136504560708999,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 830.0,
+    "avg_episode_len": 437.4,
+    "avg_episode_rew": 437.4,
+    "loss": -0.02260225669015199,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 840.0,
+    "avg_episode_len": 363.6,
+    "avg_episode_rew": 363.6,
+    "loss": -0.011279609799385071,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 850.0,
+    "avg_episode_len": 369.1,
+    "avg_episode_rew": 369.1,
+    "loss": -0.5270501971244812,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 860.0,
+    "avg_episode_len": 442.8,
+    "avg_episode_rew": 442.8,
+    "loss": 0.6181889325380325,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 870.0,
+    "avg_episode_len": 446.9,
+    "avg_episode_rew": 446.9,
+    "loss": -0.3603948175907135,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 880.0,
+    "avg_episode_len": 363.2,
+    "avg_episode_rew": 363.2,
+    "loss": -0.3175556182861328,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 890.0,
+    "avg_episode_len": 450.3,
+    "avg_episode_rew": 450.3,
+    "loss": -0.4950692802667618,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 900.0,
+    "avg_episode_len": 490.4,
+    "avg_episode_rew": 490.4,
+    "loss": 0.7134628534317017,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 910.0,
+    "avg_episode_len": 366.3,
+    "avg_episode_rew": 366.3,
+    "loss": 0.026627856492996215,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 920.0,
+    "avg_episode_len": 399.0,
+    "avg_episode_rew": 399.0,
+    "loss": 0.7236455321311951,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 930.0,
+    "avg_episode_len": 433.7,
+    "avg_episode_rew": 433.7,
+    "loss": 0.0005016303155571222,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 940.0,
+    "avg_episode_len": 477.5,
+    "avg_episode_rew": 477.5,
+    "loss": -1.0095340430736541,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 950.0,
+    "avg_episode_len": 494.4,
+    "avg_episode_rew": 494.4,
+    "loss": -0.3894150793552399,
+    "avg_eval_ep_rew": 500.0,
+    "std_eval_ep_rew": 0.0
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 960.0,
+    "avg_episode_len": 417.0,
+    "avg_episode_rew": 417.0,
+    "loss": -1.7500858426094055,
+    "avg_eval_ep_rew": 476.6,
+    "std_eval_ep_rew": 41.66821330462826
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 970.0,
+    "avg_episode_len": 485.4,
+    "avg_episode_rew": 485.4,
+    "loss": 0.02842569025233388,
+    "avg_eval_ep_rew": 476.6,
+    "std_eval_ep_rew": 41.66821330462826
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 980.0,
+    "avg_episode_len": 497.8,
+    "avg_episode_rew": 497.8,
+    "loss": -1.0581438392400742,
+    "avg_eval_ep_rew": 476.6,
+    "std_eval_ep_rew": 41.66821330462826
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 990.0,
+    "avg_episode_len": 446.4,
+    "avg_episode_rew": 446.4,
+    "loss": -0.8396849133074283,
+    "avg_eval_ep_rew": 476.6,
+    "std_eval_ep_rew": 41.66821330462826
+  },
+  {
+    "iter_num_episodes": 10,
+    "total_num_episodes": 1000.0,
+    "avg_episode_len": 485.2,
+    "avg_episode_rew": 485.2,
+    "loss": -0.10113056651316583,
+    "avg_eval_ep_rew": 476.6,
+    "std_eval_ep_rew": 41.66821330462826
+  }
+]
