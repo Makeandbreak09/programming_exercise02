@@ -1,0 +1,5 @@
+- loss.num_update_iters=1
+- loss.subtract_baseline_value=false
+- loss.use_importance_sampling=false
+- collector.total_num_episodes=1000
+- evaluation.eval_ep_freq=50

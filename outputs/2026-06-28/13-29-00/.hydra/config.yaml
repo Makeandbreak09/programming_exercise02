@@ -1,0 +1,26 @@
+device: cpu
+env:
+  name: Pendulum-v1
+logging:
+  project: sac-pendulum
+collector:
+  total_frames: 50000
+  frames_per_batch: 1000
+  init_random_frames: 1000
+buffer:
+  buffer_size: 50000
+  batch_size: 256
+optim:
+  actor_lr: 0.0003
+  critic_lr: 0.0003
+  tau: 0.005
+loss:
+  gamma: 0.99
+  num_updates: 1
+alpha:
+  autotune: true
+  value: 0.2
+  lr: 0.0003
+evaluation:
+  eval_step_freq: 5000
+  episodes: 10

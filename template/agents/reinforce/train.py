@@ -35,6 +35,7 @@ def train(cfg: DictConfig):
     # -------------------------------------------------------#
 
     status, reinf_train_metrics, reinf_eval_metrics = defaultdict(float), {}, {}
+    history = []
 
     with tqdm(total=cfg.collector.total_num_episodes, desc="REINFORCE", leave=True) as pbar:
         while pbar.n < cfg.collector.total_num_episodes:
@@ -74,9 +75,14 @@ def train(cfg: DictConfig):
             wandb.log(status, step=int(status["total_num_episodes"]))
             pbar.set_postfix({key: "{:.5f}".format(val) for key, val in status.items()})
 
+            history.append(dict(status))
+
             pbar.update(cfg.collector.num_episodes_per_iter)
 
     print("Training Completed!")
+    import json
+    with open("history.json", "w") as f:
+        json.dump(history, f, indent=2)
 
 
 if __name__ == "__main__":

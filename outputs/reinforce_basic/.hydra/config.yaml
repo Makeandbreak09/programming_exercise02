@@ -1,25 +1,18 @@
 device: cpu
 gamma: 0.99
-
 env:
   name: CartPole-v1
-
 logging:
   project: reinforce-cartpole
-
 collector:
-  total_num_episodes: 2_500
-  # num_episodes_per_iter: 1
+  total_num_episodes: 1000
   num_episodes_per_iter: 10
-
 optim:
-  lr: 2.5e-4
-
+  lr: 0.00025
 loss:
-  num_update_iters: 10
+  num_update_iters: 1
   subtract_baseline_value: false
   use_importance_sampling: false
-
 evaluation:
-  eval_ep_freq: 10
+  eval_ep_freq: 50
   episodes: 10
