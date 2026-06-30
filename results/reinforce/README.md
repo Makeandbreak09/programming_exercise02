@@ -11,3 +11,4 @@ For every variation of settings, there is a plot:
 [subtract_baseline_value = true & use_importance_sampling = true & num_update_iters = 50](.png)
 
 ## Visualisation
+To visualize the agent, I let AI write a script zu visualize the final run after a training.

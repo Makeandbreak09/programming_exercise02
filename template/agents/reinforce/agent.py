@@ -153,6 +153,4 @@ class REINFORCE(torch.nn.Module):
 
         # Log metrics (take the average over all iterations)
         metrics["avg_policy_loss"] = total_loss_val / self.cfg.loss.num_update_iters
-
-        metrics["loss"] = sum(losses) / len(losses)
         return metrics

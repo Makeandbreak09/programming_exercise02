@@ -1,0 +1,40 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "CPython 3.11.9",
+  "startedAt":  "2026-06-30T14:14:02.419604Z",
+  "program":  "C:\\Users\\simon\\OneDrive\\Dokumente\\Uni\\26SS\\DeepRL\\programming_exercise02\\template\\agents\\sac\\train.py",
+  "codePath":  "template\\agents\\sac\\train.py",
+  "codePathLocal":  "..\\..\\..\\template\\agents\\sac\\train.py",
+  "git":  {
+    "remote":  "https://github.com/Makeandbreak09/programming_exercise02.git",
+    "commit":  "5c1d8680175058bddbe59d8d36847352beeec1aa"
+  },
+  "email":  "simon.buschmann.1@gmx.de",
+  "root":  "C:\\Users\\simon\\OneDrive\\Dokumente\\Uni\\26SS\\DeepRL\\programming_exercise02\\outputs\\2026-06-30\\16-14-01",
+  "host":  "Simons-Desktop",
+  "executable":  "c:\\Users\\simon\\OneDrive\\Dokumente\\Uni\\26SS\\DeepRL\\programming_exercise02\\.venv\\Scripts\\python.exe",
+  "cpu_count":  12,
+  "cpu_count_logical":  24,
+  "gpu":  "NVIDIA GeForce RTX 3070",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "998647312384",
+      "used":  "870640029696"
+    }
+  },
+  "memory":  {
+    "total":  "17101594624"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3070",
+      "memoryTotal":  "8589934592",
+      "cudaCores":  5888,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-a3db653d-8458-a4d6-4a0c-8a50c36adcfa"
+    }
+  ],
+  "cudaVersion":  "13.3",
+  "writerId":  "hsy2s2tbb3z5jdj5g03p4d4kfvyrgi0n"
+}

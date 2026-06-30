@@ -11,62 +11,62 @@ def main():
     experiments = {
         "basic": {
             "name": "Basic REINFORCE (No Baseline, No IS)",
-            "dir": "outputs/reinforce_basic",
+            "dir": "outputs/reinforce/reinforce_basic",
             "overrides": [
                 "loss.num_update_iters=1",
                 "loss.subtract_baseline_value=false",
                 "loss.use_importance_sampling=false",
                 "collector.total_num_episodes=1000",
                 "evaluation.eval_ep_freq=50",
-                "hydra.run.dir=outputs/reinforce_basic"
+                "hydra.run.dir=outputs/reinforce/reinforce_basic"
             ]
         },
         "baseline": {
             "name": "REINFORCE with Baseline (No IS)",
-            "dir": "outputs/reinforce_baseline",
+            "dir": "outputs/reinforce/reinforce_baseline",
             "overrides": [
                 "loss.num_update_iters=1",
                 "loss.subtract_baseline_value=true",
                 "loss.use_importance_sampling=false",
                 "collector.total_num_episodes=1000",
                 "evaluation.eval_ep_freq=50",
-                "hydra.run.dir=outputs/reinforce_baseline"
+                "hydra.run.dir=outputs/reinforce/reinforce_baseline"
             ]
         },
         "is_5": {
             "name": "REINFORCE with Baseline & IS (Num Updates = 5)",
-            "dir": "outputs/reinforce_is_5",
+            "dir": "outputs/reinforce/reinforce_is_5",
             "overrides": [
                 "loss.num_update_iters=5",
                 "loss.subtract_baseline_value=true",
                 "loss.use_importance_sampling=true",
                 "collector.total_num_episodes=1000",
                 "evaluation.eval_ep_freq=50",
-                "hydra.run.dir=outputs/reinforce_is_5"
+                "hydra.run.dir=outputs/reinforce/reinforce_is_5"
             ]
         },
         "is_10": {
             "name": "REINFORCE with Baseline & IS (Num Updates = 10)",
-            "dir": "outputs/reinforce_is_10",
+            "dir": "outputs/reinforce/reinforce_is_10",
             "overrides": [
                 "loss.num_update_iters=10",
                 "loss.subtract_baseline_value=true",
                 "loss.use_importance_sampling=true",
                 "collector.total_num_episodes=1000",
                 "evaluation.eval_ep_freq=50",
-                "hydra.run.dir=outputs/reinforce_is_10"
+                "hydra.run.dir=outputs/reinforce/reinforce_is_10"
             ]
         },
         "is_50": {
             "name": "REINFORCE with Baseline & IS (Num Updates = 50)",
-            "dir": "outputs/reinforce_is_50",
+            "dir": "outputs/reinforce/reinforce_is_50",
             "overrides": [
                 "loss.num_update_iters=50",
                 "loss.subtract_baseline_value=true",
                 "loss.use_importance_sampling=true",
                 "collector.total_num_episodes=1000",
                 "evaluation.eval_ep_freq=50",
-                "hydra.run.dir=outputs/reinforce_is_50"
+                "hydra.run.dir=outputs/reinforce/reinforce_is_50"
             ]
         }
     }
@@ -101,7 +101,7 @@ def main():
     # Ensure output directory for plots exists
     os.makedirs("plots", exist_ok=True)
 
-    # 1. Plot Basic REINFORCE
+    # Plot Basic REINFORCE
     plt.figure(figsize=(8, 5))
     episodes = [h["total_num_episodes"] for h in data["basic"]]
     returns = [h["avg_eval_ep_rew"] for h in data["basic"]]
@@ -115,7 +115,7 @@ def main():
     plt.savefig("plots/reinforce_basic.png", dpi=300)
     plt.close()
 
-    # 2. Plot REINFORCE with Baseline
+    # Plot REINFORCE with Baseline
     plt.figure(figsize=(8, 5))
     episodes = [h["total_num_episodes"] for h in data["baseline"]]
     returns = [h["avg_eval_ep_rew"] for h in data["baseline"]]
@@ -129,7 +129,7 @@ def main():
     plt.savefig("plots/reinforce_baseline.png", dpi=300)
     plt.close()
 
-    # 3. Plot Importance Sampling ablation (5, 10, 50 update iterations) vs basic/baseline
+    # Plot Importance Sampling ablation (5, 10, 50 update iterations) vs basic/baseline
     plt.figure(figsize=(10, 6))
     colors = {
         "basic": "#E66101",
@@ -154,7 +154,7 @@ def main():
     plt.savefig("plots/reinforce_importance_sampling.png", dpi=300)
     plt.close()
 
-    # 4. Generate a combined plot with just basic vs baseline
+    # Generate a combined plot with just basic vs baseline
     plt.figure(figsize=(9, 5.5))
     plt.plot([h["total_num_episodes"] for h in data["basic"]], [h["avg_eval_ep_rew"] for h in data["basic"]], label="Basic REINFORCE", color="#E66101", linewidth=2)
     plt.plot([h["total_num_episodes"] for h in data["baseline"]], [h["avg_eval_ep_rew"] for h in data["baseline"]], label="REINFORCE with Baseline", color="#5E3C99", linewidth=2)

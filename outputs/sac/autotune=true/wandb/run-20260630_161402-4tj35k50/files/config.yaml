@@ -1,0 +1,91 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            hsy2s2tbb3z5jdj5g03p4d4kfvyrgi0n:
+                codePath: template\agents\sac\train.py
+                codePathLocal: ..\..\..\template\agents\sac\train.py
+                cpu_count: 12
+                cpu_count_logical: 24
+                cudaVersion: "13.3"
+                disk:
+                    /:
+                        total: "998647312384"
+                        used: "870640029696"
+                email: simon.buschmann.1@gmx.de
+                executable: c:\Users\simon\OneDrive\Dokumente\Uni\26SS\DeepRL\programming_exercise02\.venv\Scripts\python.exe
+                git:
+                    commit: 5c1d8680175058bddbe59d8d36847352beeec1aa
+                    remote: https://github.com/Makeandbreak09/programming_exercise02.git
+                gpu: NVIDIA GeForce RTX 3070
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 5888
+                      memoryTotal: "8589934592"
+                      name: NVIDIA GeForce RTX 3070
+                      uuid: GPU-a3db653d-8458-a4d6-4a0c-8a50c36adcfa
+                host: Simons-Desktop
+                memory:
+                    total: "17101594624"
+                os: Windows-10-10.0.26200-SP0
+                program: C:\Users\simon\OneDrive\Dokumente\Uni\26SS\DeepRL\programming_exercise02\template\agents\sac\train.py
+                python: CPython 3.11.9
+                root: C:\Users\simon\OneDrive\Dokumente\Uni\26SS\DeepRL\programming_exercise02\outputs\2026-06-30\16-14-01
+                startedAt: "2026-06-30T14:14:02.419604Z"
+                writerId: hsy2s2tbb3z5jdj5g03p4d4kfvyrgi0n
+        m: []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 50
+                - 105
+            "2":
+                - 1
+                - 50
+                - 105
+            "3":
+                - 16
+                - 61
+            "4": 3.11.9
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+alpha:
+    value:
+        autotune: true
+        lr: 0.0003
+        value: 0.2
+buffer:
+    value:
+        batch_size: 256
+        buffer_size: 50000
+collector:
+    value:
+        frames_per_batch: 1000
+        init_random_frames: 1000
+        total_frames: 50000
+device:
+    value: cpu
+env:
+    value:
+        name: Pendulum-v1
+evaluation:
+    value:
+        episodes: 10
+        eval_step_freq: 5000
+logging:
+    value:
+        project: sac-pendulum
+loss:
+    value:
+        gamma: 0.99
+        num_updates: 1
+optim:
+    value:
+        actor_lr: 0.0003
+        critic_lr: 0.0003
+        tau: 0.005
