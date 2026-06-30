@@ -47,10 +47,9 @@ class REINFORCE(torch.nn.Module):
         # ------------------------------------------------------------ #
         # - TODO: Implement action selection based on learned Q Values
         # - TODO: Implement epsilon-greedy action selection for agent
-        # (Note: the comments above are a mistake in the template, there are no Q Values or Epsilon-Greedy here!)
         # ------------------------------------------------------------ #
 
-        # Get the raw network outputs (logits)
+        # Get the raw network outputs
         logits = self.net(obs)
         
         # Create a categorical probability distribution
@@ -65,8 +64,7 @@ class REINFORCE(torch.nn.Module):
 
         tensordict["action"] = action
         
-        # SAVE the probability of the selected action. This is required for Importance Sampling!
-        # We store the log probability specifically, because it is easier to compute with.
+        # Save the probability of the selected action
         tensordict["behavior_log_prob"] = dist.log_prob(action).detach()
 
         return tensordict
@@ -75,23 +73,23 @@ class REINFORCE(torch.nn.Module):
         metrics = {}
         total_loss_val = 0.0
 
-        # Update iterations (for Importance Sampling num_update_iters can be > 1)
+        # Update iterations
         for niter in range(self.cfg.loss.num_update_iters):
             iteration_loss = 0.0
 
             for episode in episodes:
                 obs = episode["observation"]
-                actions = episode["action"].squeeze(-1) # Ensure correct shape (1D vector)
+                actions = episode["action"].squeeze(-1)
                 rewards = episode["next"]["reward"].squeeze(-1)
                 
-                # Old log probabilities (from when the data was collected)
+                # Old log probabilities
                 old_log_probs = episode["behavior_log_prob"].squeeze(-1)
 
                 # ------------------------------------------------------------#
                 # ---------- Compute Log. Prob. of Selected Action ---------- #
                 # ------------------------------------------------------------#
                 
-                # Compute NEW probabilities for the same states
+                # Compute new probabilities for the same states
                 logits = self.net(obs)
                 dist = torch.distributions.Categorical(logits=logits)
                 current_log_probs = dist.log_prob(actions)
@@ -135,7 +133,6 @@ class REINFORCE(torch.nn.Module):
                 # ---------- Compute Policy Gradient Loss ---------- #
                 # ---------------------------------------------------#
                 
-                # Loss = - Sum ( IS_Weight * Log_Prob * Return )
                 episode_loss = -torch.sum(is_weights * current_log_probs * returns)
 
                 # ------------------------------------------------------#
