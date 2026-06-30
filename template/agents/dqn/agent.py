@@ -57,6 +57,7 @@ class DeepQNetwork(torch.nn.Module):
  
         # Exploration schedule: linear decay ε_start → ε_end over anneal_steps
         self._eps             = float(cfg.exploration.eps_start_value)
+        self._eps_start         = float(cfg.exploration.eps_start_value)
         self._eps_end         = float(cfg.exploration.eps_end_value)
         self._eps_anneal_steps = int(cfg.exploration.eps_anneal_steps)
         self._eps_decay       = (self._eps - self._eps_end) / max(self._eps_anneal_steps, 1)
@@ -155,7 +156,8 @@ class DeepQNetwork(torch.nn.Module):
                 p_target.data.mul_(1.0 - self.tau).add_(self.tau * p_online.data)
             
         # Decay epsilon
-        self._eps = max(self._eps_end, self._eps - self._eps_decay)
+        progress = min(float(steps) / float(self._eps_anneal_steps), 1.0)
+        self._eps = self._eps_start + progress * (self._eps_end - self._eps_start)
 
         # Log metrics
         metrics["epsilon"] = self._eps

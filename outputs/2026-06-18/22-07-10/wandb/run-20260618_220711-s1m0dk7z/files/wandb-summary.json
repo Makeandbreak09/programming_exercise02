@@ -1,1 +1,0 @@
-{"loss":2.576308816060191e-06,"avg_episode_rew":9.6,"_timestamp":1.781813306285373e+09,"avg_episode_len":9.6,"_wandb":{"runtime":72},"_runtime":72.8095711,"iter_num_episodes":10,"total_num_episodes":2500,"std_eval_ep_rew":0.806225774829855,"avg_eval_ep_rew":9.5,"_step":2500}

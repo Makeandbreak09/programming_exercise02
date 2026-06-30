@@ -1,0 +1,83 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            ovsqb4ir60bh9b0sa41g5zdb89cots90:
+                codePath: template\agents\dqn\train.py
+                codePathLocal: ..\..\..\template\agents\dqn\train.py
+                cpu_count: 12
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "499943206912"
+                        used: "233642659840"
+                email: simon.buschmann.1@gmx.de
+                executable: C:\Users\simon\OneDrive\Dokumente\Uni\26SS\DeepRL\programming_exercise02\.venv\Scripts\python.exe
+                git:
+                    commit: 82f8a233d3fe3daf438dbbf6f1b260b400299f87
+                    remote: https://github.com/Makeandbreak09/programming_exercise02.git
+                host: Simons-Laptop
+                memory:
+                    total: "16757260288"
+                os: Windows-10-10.0.26200-SP0
+                program: C:\Users\simon\OneDrive\Dokumente\Uni\26SS\DeepRL\programming_exercise02\template\agents\dqn\train.py
+                python: CPython 3.11.15
+                root: C:\Users\simon\OneDrive\Dokumente\Uni\26SS\DeepRL\programming_exercise02\outputs\2026-06-30\12-10-10
+                startedAt: "2026-06-30T10:10:10.763073Z"
+                writerId: ovsqb4ir60bh9b0sa41g5zdb89cots90
+        m: []
+        python_version: 3.11.15
+        t:
+            "1":
+                - 1
+                - 50
+                - 105
+            "2":
+                - 1
+                - 50
+                - 105
+            "3":
+                - 16
+                - 61
+            "4": 3.11.15
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+buffer:
+    value:
+        batch_size: 128
+        buffer_size: 100000
+collector:
+    value:
+        frames_per_batch: 1000
+        init_random_frames: 10000
+        total_frames: 500000
+device:
+    value: cpu
+double_dqn:
+    value: true
+env:
+    value:
+        name: LunarLander-v3
+evaluation:
+    value:
+        episodes: 10
+        eval_step_freq: 10000
+exploration:
+    value:
+        eps_anneal_steps: 500000
+        eps_end_value: 0.1
+        eps_start_value: 0.1
+logging:
+    value:
+        project: dqn-lunar-lander
+loss:
+    value:
+        gamma: 0.99
+        num_updates: 100
+optim:
+    value:
+        lr: 0.00025
+        tau: 0.005

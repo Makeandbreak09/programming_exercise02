@@ -1,1 +1,0 @@
-{"avg_q_values":5.834254264831543,"_step":500000,"_timestamp":1.7817987113354897e+09,"std_eval_ep_rew":21.741136184016355,"std_step_rew":5.656752109527588,"epsilon":0.025,"_wandb":{"runtime":586},"avg_eval_ep_rew":-80.10959243774414,"_runtime":586.2217297,"num_env_steps":500000,"avg_step_rew":-0.17063693702220917,"avg_dqn_loss":0.6715210676193237}

@@ -1,1 +1,0 @@
-{"_runtime":61.577561,"total_num_episodes":2500,"avg_eval_ep_rew":8.9,"_timestamp":1.7818114290766363e+09,"_step":2500,"iter_num_episodes":1,"avg_episode_rew":8,"avg_episode_len":8,"std_eval_ep_rew":0.7000000000000001,"_wandb":{"runtime":61}}

@@ -1,0 +1,28 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "CPython 3.11.15",
+  "startedAt":  "2026-06-30T11:03:13.393696Z",
+  "program":  "C:\\Users\\simon\\OneDrive\\Dokumente\\Uni\\26SS\\DeepRL\\programming_exercise02\\template\\agents\\dqn\\train.py",
+  "codePath":  "template\\agents\\dqn\\train.py",
+  "codePathLocal":  "..\\..\\..\\template\\agents\\dqn\\train.py",
+  "git":  {
+    "remote":  "https://github.com/Makeandbreak09/programming_exercise02.git",
+    "commit":  "82f8a233d3fe3daf438dbbf6f1b260b400299f87"
+  },
+  "email":  "simon.buschmann.1@gmx.de",
+  "root":  "C:\\Users\\simon\\OneDrive\\Dokumente\\Uni\\26SS\\DeepRL\\programming_exercise02\\outputs\\2026-06-30\\13-03-12",
+  "host":  "Simons-Laptop",
+  "executable":  "C:\\Users\\simon\\OneDrive\\Dokumente\\Uni\\26SS\\DeepRL\\programming_exercise02\\.venv\\Scripts\\python.exe",
+  "cpu_count":  12,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "499943206912",
+      "used":  "234165649408"
+    }
+  },
+  "memory":  {
+    "total":  "16757260288"
+  },
+  "writerId":  "o55asfuscdwrglsir5loqy5bvkm4byxx"
+}
